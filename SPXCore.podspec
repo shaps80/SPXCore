@@ -12,6 +12,6 @@ Pod::Spec.new do |s|
   #s.source_files = 'Pod/Classes/**/*'
   s.dependency 'SPXDefines'
   s.dependency 'SPXDataValidators'
+  s.dependency 'SPXCoreData'
   #s.dependency 'SPXDataSources'
-  #s.dependency 'SPXCoreData'
 end

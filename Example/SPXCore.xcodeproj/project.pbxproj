@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		54E052EC1A856B9700B01B07 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 54E052EA1A856B9700B01B07 /* Model.xcdatamodeld */; };
+		54E052EF1A856C0600B01B07 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 54E052EE1A856C0600B01B07 /* Person.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -41,17 +43,9 @@
 		1B44C12BED0ADAD30C8F8F2D /* libPods-SPXCore.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SPXCore.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		311A7C9F101F0A89857D9273 /* SPXCore.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SPXCore.podspec; path = ../SPXCore.podspec; sourceTree = "<group>"; };
 		4686F9CC2635CB2F784B2B06 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		54E052DF1A856B1F00B01B07 /* SPXCoreDataStack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPXCoreDataStack.h; sourceTree = "<group>"; };
-		54E052E01A856B1F00B01B07 /* SPXCoreDataStack.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPXCoreDataStack.m; sourceTree = "<group>"; };
-		54E052E11A856B1F00B01B07 /* SPXCoreDataStack+ManualMergeStack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SPXCoreDataStack+ManualMergeStack.h"; sourceTree = "<group>"; };
-		54E052E21A856B1F00B01B07 /* SPXCoreDataStack+ManualMergeStack.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "SPXCoreDataStack+ManualMergeStack.m"; sourceTree = "<group>"; };
-		54E052E31A856B1F00B01B07 /* SPXCoreDataStack+ParentChildStack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SPXCoreDataStack+ParentChildStack.h"; sourceTree = "<group>"; };
-		54E052E41A856B1F00B01B07 /* SPXCoreDataStack+ParentChildStack.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "SPXCoreDataStack+ParentChildStack.m"; sourceTree = "<group>"; };
-		54E052E51A856B2900B01B07 /* NSManagedObject+SPXCoreDataStackAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSManagedObject+SPXCoreDataStackAdditions.h"; sourceTree = "<group>"; };
-		54E052E61A856B2900B01B07 /* NSManagedObject+SPXCoreDataStackAdditions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSManagedObject+SPXCoreDataStackAdditions.m"; sourceTree = "<group>"; };
-		54E052E71A856B2900B01B07 /* NSManagedObjectContext+SPXCoreDataStackAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSManagedObjectContext+SPXCoreDataStackAdditions.h"; sourceTree = "<group>"; };
-		54E052E81A856B2900B01B07 /* NSManagedObjectContext+SPXCoreDataStackAdditions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSManagedObjectContext+SPXCoreDataStackAdditions.m"; sourceTree = "<group>"; };
-		54E052E91A856B3100B01B07 /* SPXCoreData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPXCoreData.h; sourceTree = "<group>"; };
+		54E052EB1A856B9700B01B07 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		54E052ED1A856C0600B01B07 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		54E052EE1A856C0600B01B07 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* SPXCore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SPXCore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -120,45 +114,38 @@
 		5422DF2B1A8567A6005E14A3 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				54E052E91A856B3100B01B07 /* SPXCoreData.h */,
-				54E052DD1A856AAD00B01B07 /* Stacks */,
-				54E052DE1A856AB600B01B07 /* Extensions */,
 			);
 			name = Classes;
 			path = ../Pod/Classes;
 			sourceTree = "<group>";
 		};
-		54E052DD1A856AAD00B01B07 /* Stacks */ = {
+		54E052F01A856C1000B01B07 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				54E052DF1A856B1F00B01B07 /* SPXCoreDataStack.h */,
-				54E052E01A856B1F00B01B07 /* SPXCoreDataStack.m */,
-				54E052E11A856B1F00B01B07 /* SPXCoreDataStack+ManualMergeStack.h */,
-				54E052E21A856B1F00B01B07 /* SPXCoreDataStack+ManualMergeStack.m */,
-				54E052E31A856B1F00B01B07 /* SPXCoreDataStack+ParentChildStack.h */,
-				54E052E41A856B1F00B01B07 /* SPXCoreDataStack+ParentChildStack.m */,
+				54E052EA1A856B9700B01B07 /* Model.xcdatamodeld */,
+				54E052ED1A856C0600B01B07 /* Person.h */,
+				54E052EE1A856C0600B01B07 /* Person.m */,
 			);
-			path = Stacks;
+			name = Model;
 			sourceTree = "<group>";
 		};
-		54E052DE1A856AB600B01B07 /* Extensions */ = {
+		54E052F11A856C1C00B01B07 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				54E052E51A856B2900B01B07 /* NSManagedObject+SPXCoreDataStackAdditions.h */,
-				54E052E61A856B2900B01B07 /* NSManagedObject+SPXCoreDataStackAdditions.m */,
-				54E052E71A856B2900B01B07 /* NSManagedObjectContext+SPXCoreDataStackAdditions.h */,
-				54E052E81A856B2900B01B07 /* NSManagedObjectContext+SPXCoreDataStackAdditions.m */,
+				6003F59F195388D20070C39A /* Main_iPhone.storyboard */,
+				6003F5A2195388D20070C39A /* Main_iPad.storyboard */,
+				6003F5A8195388D20070C39A /* Images.xcassets */,
 			);
-			path = Extensions;
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
 				5422DF2B1A8567A6005E14A3 /* Classes */,
-				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
 				6003F593195388D20070C39A /* SPXCore */,
 				6003F5B5195388D20070C39A /* Tests */,
+				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
 				6003F58C195388D20070C39A /* Frameworks */,
 				6003F58B195388D20070C39A /* Products */,
 				1CAD86C2052E77175ACB5C56 /* Pods */,
@@ -192,11 +179,10 @@
 			children = (
 				6003F59C195388D20070C39A /* SPXAppDelegate.h */,
 				6003F59D195388D20070C39A /* SPXAppDelegate.m */,
-				6003F59F195388D20070C39A /* Main_iPhone.storyboard */,
-				6003F5A2195388D20070C39A /* Main_iPad.storyboard */,
 				6003F5A5195388D20070C39A /* SPXViewController.h */,
 				6003F5A6195388D20070C39A /* SPXViewController.m */,
-				6003F5A8195388D20070C39A /* Images.xcassets */,
+				54E052F01A856C1000B01B07 /* Model */,
+				54E052F11A856C1C00B01B07 /* Resources */,
 				6003F594195388D20070C39A /* Supporting Files */,
 			);
 			path = SPXCore;
@@ -410,7 +396,9 @@
 			files = (
 				6003F59E195388D20070C39A /* SPXAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* SPXViewController.m in Sources */,
+				54E052EF1A856C0600B01B07 /* Person.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				54E052EC1A856B9700B01B07 /* Model.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -641,6 +629,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		54E052EA1A856B9700B01B07 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				54E052EB1A856B9700B01B07 /* Model.xcdatamodel */,
+			);
+			currentVersion = 54E052EB1A856B9700B01B07 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 6003F582195388D10070C39A /* Project object */;
 }
