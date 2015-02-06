@@ -5,6 +5,11 @@
 [![License](https://img.shields.io/cocoapods/l/SPXCore.svg?style=flat)](http://cocoadocs.org/docsets/SPXCore)
 [![Platform](https://img.shields.io/cocoapods/p/SPXCore.svg?style=flat)](http://cocoadocs.org/docsets/SPXCore)
 
+
+SPXCore is my personal library open source projects by me. 
+
+'pod search SPX' to find more pods by me ;)
+
 ## Usage
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
