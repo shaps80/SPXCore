@@ -1,0 +1,11 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+target 'SPXCore', :exclusive => true do
+  pod "SPXCore", :path => "../"
+end
+
+target 'Tests', :exclusive => true do
+  pod "SPXCore", :path => "../"
+
+  pod 'Kiwi'
+end
