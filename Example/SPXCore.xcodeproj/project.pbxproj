@@ -43,8 +43,8 @@
 		4686F9CC2635CB2F784B2B06 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		54E053261A85A39700B01B07 /* NSDateFormatter+SPXAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDateFormatter+SPXAdditions.h"; sourceTree = "<group>"; };
 		54E053271A85A39700B01B07 /* NSDateFormatter+SPXAdditions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDateFormatter+SPXAdditions.m"; sourceTree = "<group>"; };
-		54E053281A85A46400B01B07 /* UIImage+DrizzleAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+DrizzleAdditions.h"; sourceTree = "<group>"; };
-		54E053291A85A46400B01B07 /* UIImage+DrizzleAdditions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+DrizzleAdditions.m"; sourceTree = "<group>"; };
+		54E053281A85A46400B01B07 /* UIImage+SPXAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+SPXAdditions.h"; sourceTree = "<group>"; };
+		54E053291A85A46400B01B07 /* UIImage+SPXAdditions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+SPXAdditions.m"; sourceTree = "<group>"; };
 		54E0532A1A85A4B900B01B07 /* SPXAudio.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPXAudio.h; sourceTree = "<group>"; };
 		54E0532B1A85A4B900B01B07 /* SPXAudio.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPXAudio.m; sourceTree = "<group>"; };
 		54E0532C1A85A4E000B01B07 /* SPXDrawing.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPXDrawing.h; sourceTree = "<group>"; };
@@ -119,8 +119,8 @@
 			children = (
 				54E053261A85A39700B01B07 /* NSDateFormatter+SPXAdditions.h */,
 				54E053271A85A39700B01B07 /* NSDateFormatter+SPXAdditions.m */,
-				54E053281A85A46400B01B07 /* UIImage+DrizzleAdditions.h */,
-				54E053291A85A46400B01B07 /* UIImage+DrizzleAdditions.m */,
+				54E053281A85A46400B01B07 /* UIImage+SPXAdditions.h */,
+				54E053291A85A46400B01B07 /* UIImage+SPXAdditions.m */,
 				54E0532A1A85A4B900B01B07 /* SPXAudio.h */,
 				54E0532B1A85A4B900B01B07 /* SPXAudio.m */,
 				54E0532C1A85A4E000B01B07 /* SPXDrawing.h */,

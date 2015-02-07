@@ -40,10 +40,7 @@
   if (self)
   {
 #if TARGET_OS_IPHONE
-    [[NSNotificationCenter defaultCenter] addObserver:self
-                                             selector:@selector(didReceiveMemoryWarning:)
-                                                 name:UIApplicationDidReceiveMemoryWarningNotification
-                                               object:nil];
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(didReceiveMemoryWarning:) name:UIApplicationDidReceiveMemoryWarningNotification object:nil];
 #endif
   }
   
@@ -85,7 +82,7 @@
 
 - (NSMutableDictionary *)preloadedAudio
 {
-  return _preloadedAudio ?: (_preloadedAudio = [[NSMutableDictionary alloc] init]);
+  return _preloadedAudio ?: (_preloadedAudio = [NSMutableDictionary new]);
 }
 
 - (SystemSoundID)preloadCustomAudioNamed:(NSString *)name
@@ -94,13 +91,13 @@
   NSURL *url = [NSURL fileURLWithPath:[self pathForAudioNamed:name]];
   if (!url) return 0;
   AudioServicesCreateSystemSoundID((__bridge CFURLRef)url, &soundID);
-  [self.preloadedAudio setObject:@(soundID) forKey:name];
+  self.preloadedAudio[name] = @(soundID);
   return soundID;
 }
 
 - (void)playCustomAudioNamed:(NSString *)name
 {
-  SystemSoundID soundID = (SystemSoundID)[[self.preloadedAudio objectForKey:name] integerValue];
+  SystemSoundID soundID = (SystemSoundID)[self.preloadedAudio[name] integerValue];
   if (!soundID) soundID = [self preloadCustomAudioNamed:name];
   if (!soundID) return;
   AudioServicesPlaySystemSound(soundID);
