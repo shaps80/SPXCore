@@ -41,6 +41,14 @@
 		1B44C12BED0ADAD30C8F8F2D /* libPods-SPXCore.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SPXCore.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		311A7C9F101F0A89857D9273 /* SPXCore.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SPXCore.podspec; path = ../SPXCore.podspec; sourceTree = "<group>"; };
 		4686F9CC2635CB2F784B2B06 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		54E053261A85A39700B01B07 /* NSDateFormatter+SPXAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDateFormatter+SPXAdditions.h"; sourceTree = "<group>"; };
+		54E053271A85A39700B01B07 /* NSDateFormatter+SPXAdditions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDateFormatter+SPXAdditions.m"; sourceTree = "<group>"; };
+		54E053281A85A46400B01B07 /* UIImage+DrizzleAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+DrizzleAdditions.h"; sourceTree = "<group>"; };
+		54E053291A85A46400B01B07 /* UIImage+DrizzleAdditions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+DrizzleAdditions.m"; sourceTree = "<group>"; };
+		54E0532A1A85A4B900B01B07 /* SPXAudio.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPXAudio.h; sourceTree = "<group>"; };
+		54E0532B1A85A4B900B01B07 /* SPXAudio.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPXAudio.m; sourceTree = "<group>"; };
+		54E0532C1A85A4E000B01B07 /* SPXDrawing.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPXDrawing.h; sourceTree = "<group>"; };
+		54E0532D1A85A4E000B01B07 /* SPXDrawing.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPXDrawing.m; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* SPXCore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SPXCore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -109,6 +117,14 @@
 		5422DF2B1A8567A6005E14A3 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				54E053261A85A39700B01B07 /* NSDateFormatter+SPXAdditions.h */,
+				54E053271A85A39700B01B07 /* NSDateFormatter+SPXAdditions.m */,
+				54E053281A85A46400B01B07 /* UIImage+DrizzleAdditions.h */,
+				54E053291A85A46400B01B07 /* UIImage+DrizzleAdditions.m */,
+				54E0532A1A85A4B900B01B07 /* SPXAudio.h */,
+				54E0532B1A85A4B900B01B07 /* SPXAudio.m */,
+				54E0532C1A85A4E000B01B07 /* SPXDrawing.h */,
+				54E0532D1A85A4E000B01B07 /* SPXDrawing.m */,
 			);
 			name = Classes;
 			path = ../Pod/Classes;

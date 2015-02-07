@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "SPXCore"
-  s.version          = "1.2.0"
+  s.version          = "1.3.0"
   s.summary          = "SPXCore is a collection of other open source projects by me."
   s.homepage         = "https://github.com/shaps80/SPXCore"
   s.license          = 'MIT'
