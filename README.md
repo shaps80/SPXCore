@@ -25,7 +25,7 @@ it, simply add the following line to your Podfile:
 
 ## Author
 
-Shaps Mohsenin, shaps@theappbusiness.com
+Shaps Mohsenin, shapsuk@me.com
 
 ## License
 
