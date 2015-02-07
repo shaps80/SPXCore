@@ -1,0 +1,1 @@
+../../../SPXDataSources/Pod/Classes/DataProviders/SPXCoreDataDataProvider.h

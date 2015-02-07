@@ -1,0 +1,1 @@
+../../../SPXDataSources/Pod/Classes/DataCoordinator/SPXDataCoordinator+UITableView.h
