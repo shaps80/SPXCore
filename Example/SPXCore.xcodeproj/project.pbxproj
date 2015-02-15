@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		544E6D2F1A9116B500A52F98 /* NSDateFormatter+SPXAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 54E053271A85A39700B01B07 /* NSDateFormatter+SPXAdditions.m */; };
+		544E6D301A9116BB00A52F98 /* UIImage+SPXAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 54E053291A85A46400B01B07 /* UIImage+SPXAdditions.m */; };
+		544E6D311A9116BB00A52F98 /* SPXAudio.m in Sources */ = {isa = PBXBuildFile; fileRef = 54E0532B1A85A4B900B01B07 /* SPXAudio.m */; };
+		544E6D321A9116BB00A52F98 /* SPXDrawing.m in Sources */ = {isa = PBXBuildFile; fileRef = 54E0532D1A85A4E000B01B07 /* SPXDrawing.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -394,7 +398,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				544E6D311A9116BB00A52F98 /* SPXAudio.m in Sources */,
+				544E6D301A9116BB00A52F98 /* UIImage+SPXAdditions.m in Sources */,
 				6003F59E195388D20070C39A /* SPXAppDelegate.m in Sources */,
+				544E6D321A9116BB00A52F98 /* SPXDrawing.m in Sources */,
+				544E6D2F1A9116B500A52F98 /* NSDateFormatter+SPXAdditions.m in Sources */,
 				6003F5A7195388D20070C39A /* SPXViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);

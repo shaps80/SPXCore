@@ -24,6 +24,7 @@
  */
 
 #import "UIImage+SPXAdditions.h"
+#import "SPXAssertionDefines.h"
 
 @implementation UIImage (SPXAdditions)
 
