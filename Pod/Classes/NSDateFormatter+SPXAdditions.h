@@ -23,9 +23,6 @@
  ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-extern NSString * const SPXStatusFeedDateFormat;
-extern NSString * const SPXStatusItemDateFormat;
-
 @interface NSDateFormatter (SPXAdditions)
 
 + (instancetype)dateFormatterForFormat:(NSString *)format;

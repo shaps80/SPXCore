@@ -25,9 +25,6 @@
 
 #import "NSDateFormatter+SPXAdditions.h"
 
-NSString * const SPXStatusFeedDateFormat = @"EEE, dd MMM yyyy HH:mm:ss Z";
-NSString * const SPXStatusItemDateFormat = @"EEE, dd MMM yyyy HH:mm:ss";
-
 static NSString * const SPXNSDateFormatterThreadDictionaryKey = @"SPXNSDateFormatterThreadDictionaryKey";
 
 @implementation NSDateFormatter (SPXAdditions)
