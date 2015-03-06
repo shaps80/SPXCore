@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "SPXCore"
-  s.version          = "1.3.2"
+  s.version          = "1.4.0"
   s.summary          = "SPXCore is a collection of other open source projects by me."
   s.homepage         = "https://github.com/shaps80/SPXCore"
   s.license          = 'MIT'
@@ -12,6 +12,6 @@ Pod::Spec.new do |s|
   s.source_files = 'Pod/Classes/**/*.{h,m}'
   s.dependency 'SPXDefines'
   s.dependency 'SPXDataValidators'
-  s.dependency 'SPXCoreData'
+  s.dependency 'Stack'
   s.dependency 'SPXDataSources'
 end

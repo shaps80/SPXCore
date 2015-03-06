@@ -134,6 +134,14 @@
     title = block(tableView, section);
   }
   
+  if (!title) {
+    title = [self.dataProvider sectionNameForSection:section];
+  }
+  
+  if ([title isEqualToString:@"<null>"]) {
+    return nil;
+  }
+  
   return title;
 }
 
